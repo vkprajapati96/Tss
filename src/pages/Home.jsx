@@ -3,6 +3,7 @@ import HeroSection from '../components/HeroSection'
 import AboutUs from '../components/AboutUs'
 import IconSections from '../components/IconSections'
 import Services from '../components/Services'
+import Specialization from '../components/Specialization'
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
         <AboutUs/>
         <IconSections/>
         <Services/>
+        <Specialization/>
     </div>
   )
 }
