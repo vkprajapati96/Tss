@@ -21,7 +21,7 @@ const AboutUs = () => {
                 <div className='p-8 flex flex-col gap-7'>
         <img className='rounded-4xl object-cover' src="https://spectrumbpo.com/wp-content/uploads/2025/10/sawyer-bengc.webp" alt="" />    
     
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-items-center">
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-items-center">
   {/* Card 1 */}
   <div className="rounded-2xl flex flex-col items-center border w-[140px] h-[170px]">
     <p className="mt-4 text-3xl font-bold">1000+</p>
