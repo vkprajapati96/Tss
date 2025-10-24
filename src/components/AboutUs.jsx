@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <div className="bg-[#F6F6F6] w-full max-w-[1340px] mx-auto px-4 pt-12 ">
+    <div className="bg-[#F6F6F6] w-full max-w-[1340px] pb-12 mx-auto px-4 pt-12 ">
       <div className=" grid lg:grid-cols-2  gap-12">
         {/* left part */}
         <div className="flex-1 text-center lg:text-start pt-16 lg:pt-44">

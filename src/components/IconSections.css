@@ -1,0 +1,26 @@
+.icon-slider-container {
+  overflow: hidden;
+  background-color: #243553;
+  padding: 24px;
+}
+
+.icon-slider {
+  display: flex;
+  gap: 5rem; 
+  animation: slide linear infinite;
+}
+
+.icon-item {
+  width:  70px;
+  height: 70px;
+  border-radius: 9999px; 
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
