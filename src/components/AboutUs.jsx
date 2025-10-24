@@ -37,9 +37,8 @@ const AboutUs = () => {
 
             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-items-center">
               {/* Cards */}
-              {[...Array(6)].map((i) => (
-                <div
-                  key={i}
+              {[...Array(6)].map((idx) => (
+                <div key={idx}
                   className="rounded-2xl flex flex-col items-center border w-[130px] h-[150px]"
                 >
                   <p className="mt-4 text-3xl font-bold">1000+</p>

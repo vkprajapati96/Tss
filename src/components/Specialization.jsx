@@ -41,8 +41,8 @@ const Specialization = () => {
         {services.map((service, i) => (
           <div
             key={i}
-            className="bg-[#243553] border-2 border-yellow-500 rounded-lg p-6 shadow-md 
-                       hover:scale-105 hover:shadow-[0_0_25px_rgba(255,215,0,0.5)] 
+            className="bg-[#243553]  border-yellow-500 rounded-lg p-6 shadow-md 
+                       hover:scale-105 hover:shadow-[0_0_25px_rgba(255,255,0,0.5)] 
                        transition-all duration-300 text-white"
           >
             <h3 className="text-xl font-semibold text-yellow-400 mb-3 text-center">
