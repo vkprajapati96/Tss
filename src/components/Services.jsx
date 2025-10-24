@@ -87,7 +87,7 @@ const Services = () => {
               {brands.map((brand, idx) => (
                 <div
                   key={idx}
-                  className="border-2 border-yellow-500 bg-[#243553] rounded-lg p-4 sm:p-5 shadow-md 
+                  className=" bg-[#243553] rounded-lg p-4 sm:p-5 shadow-md 
                   min-w-[250px] sm:min-w-[280px] md:min-w-[300px] transition-all duration-300 transform 
                   hover:scale-105 hover:shadow-[0_0_25px_rgba(255,215,0,0.5)]"
                 >
