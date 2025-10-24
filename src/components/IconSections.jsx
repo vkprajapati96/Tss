@@ -7,7 +7,7 @@ import meesho from "../assets/meesho2.png";
 import walmart from "../assets/walmart.png";
 import "./IconSections.css";
 
-const IconSections = ({ speed = 10 }) => {
+const IconSections = ({ speed = 5 }) => {
   const icons = [amazon, filpkart, meesho, glowroad, jiomart, walmart];
 
   return (
